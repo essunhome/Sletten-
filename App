@@ -1,0 +1,43 @@
+function showEmployee() {
+    document.getElementById("content").innerHTML = `
+        <h2>Min bil</h2>
+
+        <div class="card">
+            <img src="assets/caddy.svg" class="vehicle-icon">
+            <h3>Volkswagen Caddy</h3>
+            <p><b>Reg.nr:</b> ABC123</p>
+            <p><b>EU-kontroll:</b> 12.04.2026</p>
+            <p><b>Status:</b> ✔ OK</p>
+        </div>
+    `;
+}
+
+function showAdmin() {
+    document.getElementById("content").innerHTML = `
+        <h2>Flåteoversikt</h2>
+
+        <div class="card">
+            <img src="assets/transporter.svg" class="vehicle-icon">
+            <h3>Volkswagen Transporter</h3>
+            <p><b>Reg.nr:</b> ZZ99999</p>
+            <p><b>EU-kontroll:</b> 01.02.2025</p>
+            <p><b>Ansatt:</b> Ola Normann</p>
+        </div>
+
+        <div class="card">
+            <img src="assets/scania.svg" class="vehicle-icon">
+            <h3>Scania Lastebil</h3>
+            <p><b>Reg.nr:</b> BD12345</p>
+            <p><b>EU-kontroll:</b> 09.08.2024</p>
+            <p><b>Ansatt:</b> Kari Hansen</p>
+        </div>
+
+        <div class="card">
+            <img src="assets/dmax.svg" class="vehicle-icon">
+            <h3>Isuzu D-Max</h3>
+            <p><b>Reg.nr:</b> VF22333</p>
+            <p><b>EU-kontroll:</b> 21.01.2027</p>
+            <p><b>Ansatt:</b> Per Johansen</p>
+        </div>
+    `;
+}
